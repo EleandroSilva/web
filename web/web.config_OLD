@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+  <!--
+    For a description of web.config changes see http://go.microsoft.com/fwlink/?LinkId=235367.
+
+    The following attributes can be set on the <httpRuntime> tag.
+      <system.Web>
+        <httpRuntime targetFramework="4.5" />
+      </system.Web>
+  -->
+  <system.web>
+    <customErrors mode="OFF"/>
+    <compilation targetframework="4.5.1" targetFramework="4.5"/>
+    <httpRuntime targetframework="4.5.1"/>
+    <pages controlRenderingCompatibilityVersion="3.5" clientIDMode="AutoID"/>
+  </system.web>
+  <appSettings>
+    <add key="ValidationSettings:UnobtrusiveValidationMode" value="None"/>
+  </appSettings>
+</configuration>
+<!--ProjectGuid: {83F9AD68-B408-4229-B2F8-12924A6F2759}-->
